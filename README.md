@@ -1,10 +1,35 @@
-- 👋 Hi, I’m @kaffeine1
-- 👀 I’m interested in Moodle,PHP,Mysql
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+```md
+# Michele Dipace
 
-<!---
-kaffeine1/kaffeine1 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Senior Developer & DevOps Engineer focused on PHP, MySQL, Moodle and Linux infrastructure.
+
+## Main Skills
+
+- PHP / MySQL
+- Moodle & E-learning Platforms
+- Linux System Administration
+- DevOps & Automation
+- Docker
+- Apache / Nginx
+- Vtiger CRM
+- Performance Optimization
+- REST APIs & Integrations
+
+## Projects
+
+Some public repositories and experiments related to:
+
+- Moodle plugins
+- CRM integrations
+- Automation scripts
+- Retrocomputing
+- AI-assisted development
+
+## Links
+
+- GitHub: https://github.com/kaffeine1
+- LinkedIn: https://www.linkedin.com/in/kaffeine/
+
+---
+_"Code, automation and retrocomputing enthusiast."_
+```
