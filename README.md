@@ -2,6 +2,14 @@
 
 Senior Developer & DevOps Engineer specialized in PHP, MySQL, Moodle, Linux infrastructure and automation.
 
+<!-- kaffeine-project:start -->
+## Kaffeine: Amiga compatibility on AROS
+
+I'm developing [Kaffeine](https://github.com/kaffeine1/kaffeine), open-source compatibility infrastructure based on AROS. It aims to run supported Amiga applications alongside native AROS software through `kaffeine.library`, rather than emulating an entire Amiga machine. The first target is 68k applications on AROS ARM64, with Moira as the reference interpreter and an experimental 68k-to-AArch64 JIT.
+
+See the [current implementation, verified results and limitations](https://github.com/kaffeine1/kaffeine/blob/master/README.KAFFEINE.md).
+<!-- kaffeine-project:end -->
+
 <!-- patreon-support:start -->
 ## Support development
 
