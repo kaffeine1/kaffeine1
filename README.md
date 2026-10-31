@@ -2,6 +2,12 @@
 
 Senior Developer & DevOps Engineer specialized in PHP, MySQL, Moodle, Linux infrastructure and automation.
 
+<!-- patreon-support:start -->
+## Support development
+
+I develop Kaffeine, Telegram Amiga and EdgeSnap, and maintain the AROS port of BebboSSH. If you would like to support my work, you can [join my Patreon](https://www.patreon.com/c/kaffeine1). Contributions are voluntary: public code, releases and articles remain available to everyone. Follow the [RetroLab on AndroidLab](https://androidlab.it/en/retrolab/) for development notes and verified results.
+<!-- patreon-support:end -->
+
 ## Main Skills
 
 - PHP / MySQL
