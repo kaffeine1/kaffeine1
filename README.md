@@ -14,6 +14,8 @@ See the [current implementation, verified results and limitations](https://githu
 ## Support development
 
 I develop Kaffeine, Telegram Amiga and EdgeSnap, and maintain the AROS port of BebboSSH. If you would like to support my work, you can [join my Patreon](https://www.patreon.com/c/kaffeine1). Contributions are voluntary: public code, releases and articles remain available to everyone. Follow the [RetroLab on AndroidLab](https://androidlab.it/en/retrolab/) for development notes and verified results.
+
+If you prefer a one-time contribution, you can [support my work on Ko-fi](https://ko-fi.com/kaffeine1).
 <!-- patreon-support:end -->
 
 ## Main Skills
