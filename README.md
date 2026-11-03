@@ -38,7 +38,7 @@ Public repositories and experiments related to:
 - CRM integrations (Vtiger)
 - Automation and DevOps scripts
 - Retrocomputing
-- AI-assisted development
+- LLM-assisted development
 
 ## Links
 
