@@ -5,9 +5,11 @@ Senior Developer & DevOps Engineer specialized in PHP, MySQL, Moodle, Linux infr
 <!-- kaffeine-project:start -->
 ## Kaffeine: Amiga compatibility on AROS
 
-I'm developing [Kaffeine](https://github.com/kaffeine1/kaffeine), open-source compatibility infrastructure based on AROS. It aims to run supported Amiga applications alongside native AROS software through `kaffeine.library`, rather than emulating an entire Amiga machine. The first target is 68k applications on AROS ARM64, with Moira as the reference interpreter and an experimental 68k-to-AArch64 JIT.
+I am developing [Kaffeine](https://github.com/kaffeine1/kaffeine) to improve Amiga 68k compatibility on AROS. AROS's `m68kemu.library` remains the shared compatibility layer; I am preparing common fixes for contribution upstream.
 
-See the [current implementation, verified results and limitations](https://github.com/kaffeine1/kaffeine/blob/master/README.KAFFEINE.md).
+The experimental Kaffeine 68k-to-AArch64 JIT is being developed as a separate optional engine, `kaffeine-jit68.library`, intended to work alongside the existing interpreter. The engine source and interface have passed host checks on an AArch64 Mac, but the separate engine has not yet run on AROS and its integration is still in progress. Earlier AROS demonstrations used the previous `kaffeine.library` prototype.
+
+See the [project's current direction, verified results and limitations](https://github.com/kaffeine1/kaffeine/blob/master/README.KAFFEINE.md).
 <!-- kaffeine-project:end -->
 
 <!-- patreon-support:start -->
