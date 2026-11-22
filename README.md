@@ -1,53 +1,36 @@
 # Michele Dipace
 
-Senior Developer & DevOps Engineer specialized in PHP, MySQL, Moodle, Linux infrastructure and automation.
+Software engineer working across web platforms, infrastructure automation and low-level systems. My professional work includes PHP, MySQL, Moodle, Linux and service integrations. My open-source work explores cross-architecture compatibility, operating-system internals and native software for the Amiga family.
 
 <!-- kaffeine-project:start -->
-## Kaffeine: Amiga compatibility on AROS
+## Kaffeine
 
-I am developing [Kaffeine](https://github.com/kaffeine1/kaffeine) to improve Amiga 68k compatibility on AROS. AROS's `m68kemu.library` remains the shared compatibility layer; I am preparing common fixes for contribution upstream.
-
-The experimental Kaffeine 68k-to-AArch64 JIT is being developed as a separate optional engine, `kaffeine-jit68.library`, intended to work alongside the existing interpreter. The engine source and interface have passed host checks on an AArch64 Mac, but the separate engine has not yet run on AROS and its integration is still in progress. Earlier AROS demonstrations used the previous `kaffeine.library` prototype.
-
-See the [project's current direction, verified results and limitations](https://github.com/kaffeine1/kaffeine/blob/master/README.KAFFEINE.md).
+[Kaffeine](https://github.com/kaffeine1/kaffeine) develops experimental 68k-to-AArch64 dynamic translation for AROS. The proposed `m68kjit.library` is an optional engine beneath AROS's `m68kemu.library` interpreter. The [engine interface is merged upstream](https://github.com/aros-development-team/AROS/pull/2359); the [JIT engine is under review](https://github.com/aros-development-team/AROS/pull/2360). The latter has passed host checks and small native tests under QEMU, but has not been validated with real applications in that upstream configuration or on physical hardware. Read the [technical case study](https://github.com/kaffeine1/kaffeine/blob/master/docs/kaffeine/jit-case-study.md) for the architecture, evidence and limits.
 <!-- kaffeine-project:end -->
+
+## Other selected work
+- **[Amigram](https://github.com/kaffeine1/telegram-amiga)** — A native Telegram client, formerly TelegramAmiga, written in C for AmigaOS 3 and 4, MorphOS and AROS. It shares a protocol engine between graphical and Shell clients; the public repository documents its beta releases and platform coverage.
+- **[EdgeSnap](https://github.com/kaffeine1/edgesnap)** and **[EdgeSnap classic](https://github.com/kaffeine1/edgesnap-classic)** — Window snapping and tiling for AmigaOS, MorphOS and AROS. A portable C89 core drives system-specific libraries, commodities and preferences; the classic branch supports 68k AmigaOS.
+- **[BebboSSH for AROS](https://github.com/kaffeine1/bebbossh-aros)** and **[bebboget for AROS](https://github.com/kaffeine1/bebboget-aros)** — AROS ports of Stefan “Bebbo” Franke's SSH and HTTPS tools for i386, x86-64 and AArch64. The original authorship and licenses remain with their respective upstream projects.
+
+## Contributions to AROS
+
+I contribute fixes and tests to [AROS](https://github.com/aros-development-team/AROS), including 68k compatibility, native structure layouts, DOS and graphics behavior, and Raspberry Pi AArch64 support. Examples already merged upstream include the [optional 68k execution-engine interface](https://github.com/aros-development-team/AROS/pull/2359), [target-correct native structure offsets](https://github.com/aros-development-team/AROS/pull/2341), [root stack, process streams and argument handling](https://github.com/aros-development-team/AROS/pull/2273), [aligned seglist links](https://github.com/aros-development-team/AROS/pull/2243), [graphics text bounds](https://github.com/aros-development-team/AROS/pull/2346), and [Raspberry Pi bootstrap fixes](https://github.com/aros-development-team/AROS/pull/2331).
+
+The 68k-to-AArch64 engine remains a [separate open proposal](https://github.com/aros-development-team/AROS/pull/2360). Kaffeine's earlier application demonstrations use its legacy library or local development builds; they are not evidence that the proposed upstream engine supports those applications.
+
+## Areas of work
+
+**Professional:** PHP, MySQL, Moodle, Linux operations, automation, REST integrations.
+
+**Open source:** C and C++, AArch64, dynamic binary translation, emulation, ABI boundaries, native UI, cross-platform ports and reproducible testing.
 
 <!-- patreon-support:start -->
 ## Support development
 
-I develop Kaffeine, Telegram Amiga and EdgeSnap, and maintain the AROS port of BebboSSH. If you would like to support my work, you can [join my Patreon](https://www.patreon.com/c/kaffeine1). Contributions are voluntary: public code, releases and articles remain available to everyone. Follow the [RetroLab on AndroidLab](https://androidlab.it/en/retrolab/) for development notes and verified results.
-
-If you prefer a one-time contribution, you can [support my work on Ko-fi](https://ko-fi.com/kaffeine1).
+My open-source projects and documentation are available without a subscription. If you would like to support their development, you can [join my Patreon](https://www.patreon.com/c/kaffeine1) or [make a one-time contribution on Ko-fi](https://ko-fi.com/kaffeine1).
 <!-- patreon-support:end -->
-
-## Main Skills
-
-- PHP / MySQL
-- Moodle & E-learning Platforms
-- Linux System Administration
-- DevOps & Automation
-- Docker
-- Apache / Nginx
-- Vtiger CRM
-- Performance Optimization
-- REST APIs & Integrations
-
-## Projects
-
-Public repositories and experiments related to:
-
-- Moodle plugins and integrations
-- CRM integrations (Vtiger)
-- Automation and DevOps scripts
-- Retrocomputing
-- LLM-assisted development
 
 ## Links
 
-- [GitHub](https://github.com/kaffeine1)
-- [LinkedIn](https://www.linkedin.com/in/kaffeine/)
-
----
-
-_"Code, automation and retrocomputing enthusiast."_
-
+[LinkedIn](https://www.linkedin.com/in/kaffeine/) · [Development notes](https://androidlab.it/en/retrolab/)
