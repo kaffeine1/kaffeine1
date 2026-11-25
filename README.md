@@ -1,5 +1,7 @@
 # Michele Dipace
 
+**Senior Software Engineer | PHP, Moodle & DevOps | Systems Programming & Open Source**
+
 Software engineer working across web platforms, infrastructure automation and low-level systems. My professional work includes PHP, MySQL, Moodle, Linux and service integrations. My open-source work explores cross-architecture compatibility, operating-system internals and native software for the Amiga family.
 
 <!-- kaffeine-project:start -->
